@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIDHOHUB</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            background-color: #555;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 0;
+            display: inline-block;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Assalamualaikum</h1>
+        <p>Selamat Datang di Website Saya</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#about">Tentang Kami</a></li>
+            <li><a href="#services">Layanan</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" id="home">
+        <h2>Beranda</h2>
+        <p>Saya adalah Manusia.</p>
+        <p>Nyawa saya satu.</p>
+        <img src="ayam.jpg.jpg" alt="ayam" style="max-width: 100%; height: auto; display: block; margin-top: 20px;">
+    </div>
+
+    <div class="container" id="about">
+        <h2>Tentang Kami</h2>
+        <p>Saya adalah Manusia.</p>
+        <p>Djawa adalah koentji.</p>
+    </div>
+
+    <div class="container" id="services">
+        <h2>Layanan</h2>
+        <ul>
+            <li>Layanan Bantu Doa</li>
+            <li>Layanan Konsultasi</li>
+            <li>Layanan Bantu Makan</li>
+        </ul>
+    </div>
+
+    <div class="container" id="contact">
+        <h2>Kontak</h2>
+        <p>Anda bisa menghubungi kami melalui email: <a href="mridhoramadhan1234@gmail.com">golokmanagolok21@gmail.com</a></p>
+        <p>Atau melalui telepon: 081280449320</p>
+        <form action="#" method="POST">
+            <label for="nama">Nama:</label><br>
+            <input type="text" id="nama" name="nama" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="pesan">Pesan:</label><br>
+            <textarea id="pesan" name="pesan" rows="5" required></textarea><br><br>
+            <input type="submit" value="Kirim Pesan">
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Nama Website Anda. Semua Hak Cipta Dilindungi.</p>
+    </footer>
+
+</body>
+</html>
